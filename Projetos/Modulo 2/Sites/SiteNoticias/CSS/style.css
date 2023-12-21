@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'noticia';
+    src: url(../Noticia-Bold.otf) format(opentype);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap');
+:root{
+    --cor00:#C4170C;
+    --cor01: #F3D1CE;
+
+    --font-padrao: 'Open Sans', sans-serif;
+}
+header{
+    background-color: var(--cor00);
+    height: 74px;
+}
+header h1{
+    font: normal lighter 2em var(--font-padrao);
+    color: white;
+    padding-top: 20px;
+}
+main h1{
+    font: normal bold 56px var(--font-padrao);
+    margin: auto;
+    text-align: left;
+    max-width: 1000px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+main p{
+    margin: auto;
+    color: #5F6A6A;
+    text-align: left;
+    max-width: 1000px;
+    font: normal normal 20px var(--font-padrao);
+}

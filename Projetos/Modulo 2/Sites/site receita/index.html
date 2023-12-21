@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <style>
+        .base{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            margin: -8px;
+            background: #f74b84;
+        }
+        .flower{
+            box-sizing: border-box;
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+        .leaf{
+            position: relative;
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            background: #00ff84;
+            border-radius: 0% 72% 10% 75% / 1% 75% 10% 86%;
+        }¨
+        .leaf:before {
+            content: '';
+            position: absolute;
+            display: inline-block;
+            transform: rotate(40deg);
+            width: 70px;
+            height: 70px;
+            background: #00ff84;
+            border-radius:  0% 72% 10% 75% / 1% 75% 10% 86%;;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="base">
+        <div class="flower">
+            <div class="petala"></div>
+            <div class="leaf"></div>
+            <div class="center"></div>
+        </div>
+    </div>
+</body>
+</html>
