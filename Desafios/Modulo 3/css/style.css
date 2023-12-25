@@ -26,17 +26,44 @@ header > p{
     font: normal normal 1em var(--font-secun);
     padding-bottom: 20px;
 }
-section.normal p{
-    padding: 30px;
+section p{
+    padding: 30px 10px 30px 10px;
     line-height: 40px;
     font: normal normal 1.7em var(--font-paragrafo);
 }
 section#img1{
-    height: 65vh;
+    height: 60vh;
     background-image: url(../imagens/background001.jpg);
     background-position: right bottom;
     background-size: cover;
     background-attachment: fixed;
+
+}
+div#first{
+    position: relative;
+    top:10%;
+    left: 3%;
+}
+div#second{
+    position: relative;
+    top:10%;
+    left: 3%;
+}
+
+section#img2{
+    height: 65vh;
+    background-image: url(../imagens/background002.jpg);
+    background-position: right bottom;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+section.imagem p{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.383);
+    width: 350px;
 }
 footer{
     margin-top: 80px;
@@ -44,5 +71,5 @@ footer{
     text-align: center;
     background-color: black;
     color: white;
-    font: normal normal 1em var(--font-secun)
+    font: normal normal 1em var(--font-secun);
 }
