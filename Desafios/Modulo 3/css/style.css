@@ -32,6 +32,7 @@ section p{
     font: normal normal 1.7em var(--font-paragrafo);
 }
 section#img1{
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.425);
     height: 60vh;
     background-image: url(../imagens/background001.jpg);
     background-position: right bottom;
@@ -51,6 +52,8 @@ div#second{
 }
 
 section#img2{
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.425);
+    
     height: 65vh;
     background-image: url(../imagens/background002.jpg);
     background-position: right bottom;
